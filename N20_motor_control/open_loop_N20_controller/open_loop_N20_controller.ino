@@ -61,7 +61,7 @@ void loop() {
 
  while (getAngleRad() < theta_target) {
   analogWrite(MotFwd, 0);  // or whatever PWM needed
-  analogWrite(MotRev, 100);    // forward direction
+  analogWrite(MotRev, 180);    // forward direction
    Serial.print("Theta target  ");
    Serial.println(theta_target);
    Serial.print("Radians  ");

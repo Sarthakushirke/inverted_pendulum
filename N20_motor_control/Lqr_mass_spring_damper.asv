@@ -1,0 +1,36 @@
+%% System Parameters
+k = 1e4;       % N/m (stiffness)
+m = 0.1;       % kg (mass)
+b = 0.1;       % Ns/m (damping)
+fc = 150;      % Hz, power amplifier cutoff frequency
+
+% Power amplifier as first-order low-pass filter
+tau = 1 / (2 * pi * fc); % time constant
+
+X0 = [0,0,0]; % For inverted pendulum X0 = [pi, 0]
+
+A = [0        1         0;
+    -k/m    -b/m       1/m;
+     0        0    -1/tau];
+
+B = [0; 0; 1/tau];
+C_lqr = [1 0 0];     % Output is position
+D = 0;
+
+eig(A)
+
+%% 
+Poles = [-5; -10; -6 ];
+
+K = place(A,B,Poles); 
+
+output_poles = eig(A-B*K)
+
+%% 
+u = -K*x_old;
+y = C_lqr*X;
+x_new = A*x_old + B*u;
+
+
+%% Closed-loop system (state feedback)
+
