@@ -25,4 +25,4 @@ Thanks to the Robotics and Biorobotics Team (RBT), TU/e for providing access to 
 
 
 
-pendulum_3D_printed.jpg
+![pendulum_3D_printed](https://github.com/user-attachments/assets/07f5af20-489c-4b1e-bf11-b19715331f95)
