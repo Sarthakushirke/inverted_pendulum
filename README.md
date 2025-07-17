@@ -16,7 +16,7 @@ Decision: Switch to the Robstride 00 motor.
 
 Provides higher torque, solving the load-handling issue.
 
-Thanks to the Robotics and Biorobotics Team (RBT), TU/e for providing access to this motor.
+Thanks to the Robotics group (RBT), TU/e for providing access to this motor.
 
 ✅ Outcome: Improved bi-directional motion and torque performance for the application.
 
