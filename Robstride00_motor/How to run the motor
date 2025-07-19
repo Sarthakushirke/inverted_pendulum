@@ -1,0 +1,15 @@
+python3.10 -m venv Robstride
+
+source Robstride/bin/activate
+
+python3 -m pip install robstride
+
+sudo ip link set can0 type can bitrate 1000000
+
+sudo ip link set can0 up
+
+
+
+Thanks to Kayden Knapik
+
+https://github.com/KaydenKnapik/Robstride?tab=readme-ov-file 
