@@ -25,4 +25,4 @@ Thanks to the Robotics group (RBT), TU/e for providing access to this motor.
 
 
 
-![pendulum_3D_printed](https://github.com/user-attachments/assets/07f5af20-489c-4b1e-bf11-b19715331f95)
+![pendulum_3D_printed]([https://github.com/user-attachments/assets/07f5af20-489c-4b1e-bf11-b19715331f95](https://github.com/Sarthakushirke/inverted_pendulum/blob/main/Pendulum_cad_robstride/Pendulum_mouting_in_progress.jpg?raw=true))
